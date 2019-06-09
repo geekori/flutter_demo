@@ -1,0 +1,37 @@
+搭建Flutter开发环境
+
+Windows和macOS
+
+Flutter：Android App和iOS App
+
+Android App：Windows、macOS和Linux
+iOS App：macOS
+
+需要安装什么：
+1. Flutter SDK
+2. Android SDK和iOS SDK
+3. Android toolchain和iOS toolchain
+4. Android Studio插件
+5. 连接至少一个Android和iOS设备。
+
+
+通过flutter doctor查看flutter开发环境还需要安装些什么
+
+flutter doctor -v   显示更详细的信息
+
+Android、iOS和Dart
+
+1.Flutter SDK
+https://flutter.dev/docs/get-started/install
+
+2. Android SDK和iOS SDK
+
+3. 
+
+
+
+
+
+
+
+
