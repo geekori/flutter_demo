@@ -26,7 +26,29 @@ https://flutter.dev/docs/get-started/install
 
 2. Android SDK和iOS SDK
 
-3. 
+3. Android toolchain和iOS toolchain
+
+sdkmanager "build-tools;28.0.3" "emulator" "tools" "platform-tools"
+
+如果出现类似xxxx class not found这样的错误，可以按如下方式解决：
+
+编辑sdkmanager文件，然后找到DEFAULT_JVM_OPTS，并按下面形式修改
+DEFAULT_JVM_OPTS='"-Dcom.android.sdklib.toolsdir=$APP_HOME" -XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+
+单独检测android sdk及相关工具是否安装成功
+flutter doctor --android-licenses
+
+iOS toolchain
+
+sudo gem install cocosapods -n /usr/local/bin
+
+4. Android Studio插件
+ 
+
+
+
+
+
 
 
 
